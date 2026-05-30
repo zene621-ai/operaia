@@ -34,3 +34,10 @@ model ItemPedido {
   precio   Float
   pedido   Pedido @relation(fields: [pedidoId], references: [id])
 }
+model Gasto {
+  id          Int      @id @default(autoincrement())
+  descripcion String
+  monto       Float
+  categoria   String   @default("general")
+  createdAt   DateTime @default(now())
+}
