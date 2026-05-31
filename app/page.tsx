@@ -98,7 +98,7 @@ export default function Home() {
         </div>
 
         <p style={{ fontSize: '11px', fontWeight: '600', color: '#999', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: '10px' }}>Módulos</p>
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '12px', marginBottom: '20px' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', marginBottom: '20px' }}>
           <Link href="/clientes" style={{ background: '#fff', borderRadius: '14px', padding: '20px', border: '0.5px solid #e8e8e8', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '14px' }}>
             <div style={{ width: '44px', height: '44px', background: '#e8f7f1', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '20px', flexShrink: 0 }}>👥</div>
             <div style={{ flex: 1 }}>
@@ -120,6 +120,14 @@ export default function Home() {
             <div style={{ flex: 1 }}>
               <p style={{ fontSize: '14px', fontWeight: '600', color: '#111', margin: '0 0 2px' }}>Contabilidad</p>
               <p style={{ fontSize: '12px', color: '#999', margin: 0 }}>Gastos, ganancias y margen</p>
+            </div>
+            <span style={{ color: '#ccc', fontSize: '20px' }}>›</span>
+          </Link>
+          <Link href="/ia" style={{ background: '#fff', borderRadius: '14px', padding: '20px', border: '0.5px solid #e8e8e8', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '14px' }}>
+            <div style={{ width: '44px', height: '44px', background: '#f0e8fb', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '20px', flexShrink: 0 }}>✨</div>
+            <div style={{ flex: 1 }}>
+              <p style={{ fontSize: '14px', fontWeight: '600', color: '#111', margin: '0 0 2px' }}>Análisis IA</p>
+              <p style={{ fontSize: '12px', color: '#999', margin: 0 }}>Resumen inteligente</p>
             </div>
             <span style={{ color: '#ccc', fontSize: '20px' }}>›</span>
           </Link>
